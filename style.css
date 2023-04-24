@@ -1,0 +1,211 @@
+body {
+    overflow: hidden;
+    font-family: 'Jost', sans-serif;
+}
+
+
+/* TOP BAR CSS */
+
+.first-top-bar {
+    display: flex;
+    position: relative;
+    left: 1060px;
+    top: -5px;
+}
+
+.top-bar li {
+    margin: 10px;
+    display: inline-block;
+    font-size: .8rem;
+}
+
+.top-bar a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.first-top-image img {
+   margin-top: -5px;
+    width: 13%;
+    border-radius: 50px;
+}
+
+.fisrt-top-hover:hover {
+    text-decoration: underline;
+}
+
+.dots:hover {
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin: auto;
+}
+
+
+/* GOOGLE CSS */ 
+
+.google {
+    margin-top: -50px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.g {
+    color: #3f3fec;
+}
+
+.o {
+    color: #f14747;
+}
+
+.o1 {
+    color: #eeee4f;
+}
+
+.l {
+    color: #47dd47;
+}
+
+
+/* SEARCH BAR CSS */
+
+.search-bar {
+    position: relative;
+    margin-top: -50px;
+    left: 410px;
+}
+
+ input {
+    width: 390px;
+    height: 40px;
+    font-size: 1rem;
+    padding-left: 50px;
+    padding-right: 80px;
+    border-radius: 25px;
+    border-bottom-color: whitesmoke;
+    border-right-color: whitesmoke;
+    border-left-color: whitesmoke;
+    border-top-color: white;
+} 
+
+input:hover {
+    background-color: #ffffff;
+    box-shadow: 2px 2px 4px rgba(170, 166, 166, 0.4);
+}
+
+
+
+.fa {
+    position: absolute;
+   left: 20px;
+   top: 10px;
+   color: #bebaba;
+} 
+
+.fa-microphone {
+    left: 450px;
+    color: #703512;
+}
+
+.fa-camera {
+    left: 480px;
+    color: #703512;
+}
+
+
+/* BUTTON CSS */
+
+.button ul {
+    display: flex;
+    position: relative;
+    left: 500px;
+}
+
+.button li {
+    margin: 6px;
+    display: inline-block;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: .9rem;
+}
+
+.button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.button li:hover {
+    border: 1px solid #dfdcdc;
+}
+
+
+/* LANGUAGE CSS */ 
+
+.language {
+    text-align: center;
+    font-size: .9rem;
+}
+
+.language a {
+    text-decoration: none;
+    margin: 5px;
+}
+
+
+.language a:hover {
+    text-decoration: underline;
+}
+
+
+/* BOTTON BAR CSS */
+/* LOCATION CSS */
+
+.bottom-bar {
+    margin-top: 250px;
+    background-color: whitesmoke;
+    padding: 01px;
+    margin-left: 0;
+    margin-right: -20px;
+}
+
+.location {
+    color: #858b8b;
+    font-size: .9rem;
+    margin-left: 25px;
+}
+
+.footer {
+    margin-top: -25px;
+    display: flex;
+    margin-left: -21px;
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer li {
+    font-size: .9rem;
+    margin: 10px;
+    display: inline-block;
+    color: #000000;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer a {
+    color: #858b8b;
+    text-decoration: none;
+}
+
+.footer-span ul {
+    margin-left: 680px;
+}
